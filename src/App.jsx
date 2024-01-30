@@ -15,7 +15,7 @@ function App() {
     setuserInput((prevState) => {
       return {
         ...prevState,
-        [inputIdentifier]: newValue,
+        [inputIdentifier]: +newValue,
       };
     });
   };
